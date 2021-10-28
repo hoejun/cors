@@ -99,6 +99,7 @@ Access-Control-Allow-Origin:* 이런식으로 작성하지 마라.
 
 
 
+
 5.서버:CORS미들웨어 사용하기
 
 Express로 구축한 경우 Node.js 미들웨어 중 하나인 CORS를 사용하여 쉽게 해결 가능
