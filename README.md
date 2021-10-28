@@ -8,15 +8,14 @@ CORS 정책
 ![image](https://user-images.githubusercontent.com/45154233/139275799-df91559b-138f-4c63-8a56-a021897cb642.png)
 
 ![image](https://user-images.githubusercontent.com/45154233/139275775-e316d8f6-f9fc-4937-a07d-728771bc41f3.png)
-
+   
 
 
 
 
 CORS : 교차 출처 리소스 공유(Cross-Origin Resource Sharing) 추가 HTTP 헤더를 사용하여,
-
 한 출처에서 실행 중인 웹 애플리케이션이 다른 출처의 선택한 자원에 접근할 수 있는 권한을 부여하도록 브라우저에 알려주는 체제이다.
-
+   
 
 
 교차 출처 요청의 예시 :
@@ -99,14 +98,11 @@ Access-Control-Allow-Origin:* 이런식으로 작성하지 마라.
 
 
 
-
+   
 5.서버:CORS미들웨어 사용하기
 
 Express로 구축한 경우 Node.js 미들웨어 중 하나인 CORS를 사용하여 쉽게 해결 가능
 ![image](https://user-images.githubusercontent.com/45154233/139275482-82d6cf2b-3744-4e5e-bce1-dcb0ca1f4dc0.png)
 
-
-
 origin에 허용하고자 하는 도메인 추가, credentials을 true로 설정하면 response헤더에 추가가 된다.
-
 app.use(cors()) 이런식으로 하게 되면 모든 출처에서 오는 요청을 허용하는 것이므로 지양해라..
