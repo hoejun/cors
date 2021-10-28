@@ -58,11 +58,13 @@ https://domain-b.com/data.json을 요청하는 경우.....
 -CORS는 브라우저에 관련된 정책이기 때문에, 브라우저를 통하지 않고 서버 간 통신을 할 때는 이 정책이 적용되지 않는다.
 
 react 클라이언트단 코드
+
 ![image](https://user-images.githubusercontent.com/45154233/139275700-56c2c24f-4ef8-4b34-9259-18e291ea2a8e.png)
 
 
 
 Express를 활용한 서버단 코드
+
 ![image](https://user-images.githubusercontent.com/45154233/139275678-46701a6b-6e1d-486a-a485-0722874a2055.png)
 
 
